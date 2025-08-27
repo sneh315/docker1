@@ -1,0 +1,7 @@
+services:
+  project1:
+    build:
+      context: .
+    container_name: project1_container
+    ports:
+      - "8501:8501"
